@@ -19,7 +19,7 @@ function solve(number) {
     let textNumber = number.toStrung();
     for (let i = 0; i < textNumber.length; i++) {
         sum += Number(textNumber[i]);
-        /* sum += +textNumber[i];number / когато сложиш + пред стринг той го обръща в number */
+        /* sum += +textNumber[i]; = number  */
         sum += Number(textNumber.charAt(i));
 
     }
